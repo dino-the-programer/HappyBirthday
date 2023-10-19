@@ -47,8 +47,7 @@ cake.onload = function () {
     ctxProp.drawImage(cake, canvasProp.width / 2 - 40, Tabletop - 120, 80, 120);
 }
 
-cake.src = "/static/images/cake.png";
-console.log(cake);
+cake.src = "static/images/cake.png";
 
 let audio = new Audio("static/audio/audio.mp3");
 
