@@ -1,0 +1,1 @@
+This a birthday wishng page made for static web pages
