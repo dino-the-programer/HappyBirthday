@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="icon" type="image/x-icon" href="static/images/cake-logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/prop.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-base64@3.7.5/base64.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+        integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div id="heading-wrapper"  class="heading-wrapper">
+        <h1 id="heading"></h1>
+    </div>
+    <script src="static/js/prompt.js"></script>
+    <div id="wrapper-top" class="wrapper-top">
+        <div id="wrapper-top-col1" class="wrapper-top-col1">
+            <div id="wrapper-top-col1-row-1" class="wrapper-top-col1-row-1">
+            </div>
+            <div id="wrapper-top-col1-row-2" class="wrapper-top-col1-row-2">
+            </div>
+        </div>
+        <div id="wrapper-top-col2" class="wrapper-top-col2">
+            <div id="wrapper-top-col2-row-1" class="wrapper-top-col2-row-1">
+            </div>
+            <div id="wrapper-top-col2-row-2" class="wrapper-top-col2-row-2">
+            </div>
+        </div>
+    </div>
+    <div id="wrapper-bottom" class="wrapper-bottom">
+        <canvas id="prop-canvas"></canvas>
+    </div>
+    <canvas id="background-canvas"></canvas>
+    <p id="author">-By AD</p>
+    <script src="static/js/decrypt.js"></script>
+    <script src="static/js/prop.js"></script>
+    <script src="static/js/background.js"></script>
+</body>
+</html>
