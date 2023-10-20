@@ -40,3 +40,20 @@ body {
     color: aliceblue;
 }
 
+#clickQuery{
+    position: absolute;
+    top:50%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    z-index: 3;
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    color: aliceblue;
+    transition-property: color;
+    transition-duration: 4s;
+}
+
+
+

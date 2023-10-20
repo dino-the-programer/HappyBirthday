@@ -53,6 +53,7 @@ let audio = new Audio("static/audio/audio.mp3");
 
 window.addEventListener("click", () => {
     audio.play();
+    document.getElementById("clickQuery").style.color = "#00000000";
 });
 
 
